@@ -16,4 +16,11 @@
 ### 其他
 
 打包项目依赖
+```
+yum install -y make gcc mysql-devel
 pip3 freeze >requirements.txt
+
+```
+
+<!-- 容器启动web -->
+

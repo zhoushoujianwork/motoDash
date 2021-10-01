@@ -179,7 +179,7 @@ const listenToClickSubmit = function() {
             ridename.value = ''
             ridedescription.value = ''
             handleData(`http://${lanIP}/api/v1/rides/${currentrideid}`, callbackUpdateRide, null, "PUT", JSON.stringify(jsonObject))
-            window.location.href = '/Code/Frontend/stats.html'
+            window.location.href = '/stats.html'
         })
     }
     //#endregion
