@@ -1,3 +1,4 @@
+# sudo cp motoDash_backend.service /etc/systemd/system/motoDash_backend.service.
 [Unit]
 Description=Full backend of motoDash
 After=network.target
